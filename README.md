@@ -1,8 +1,8 @@
 # MIIIME Hybrid Launcher (MHL™)
 MIIIME Launcher · 미메런처 · ミメランチャー<br>
 
-[![VirusTotal Guide](https://img.shields.io/badge/VirusTotal-19%2F72_Detected-red?logo=virustotal)](https://www.virustotal.com/gui/file/4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097?nocache=1)
-[![Latest Release](https://img.shields.io/github/v/release/miiime6248/MHL?color=blue)](https://github.com/miiime6248/MHL/releases/latest)
+[![VirusTotal Guide](https://img.shields.io/badge/VirusTotal-19%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097?nocache=1)
+[![Latest Release](https://img.shields.io/github/v/release/miiime6248/MHL?color=blue&style=flat-square)](https://github.com/miiime6248/MHL/releases/latest)
 
 <br>
 <img width="559" height="136" alt="001" src="https://github.com/user-attachments/assets/6d46085c-2b46-4d34-835b-de97f2b28f7c" style="margin-top: 20px; margin-bottom: 20px;">
