@@ -66,7 +66,7 @@ Run **[noname_M.exe]** to start in portable mode.
 
 * **Developer**: Miime 
 
-* **Website**: [https://www.miiime.co.kr](https://www.miiime.com) (GitHub: [@miiime6248]) 
+* **Website**: [https://www.miiime.com](https://www.miiime.com) (GitHub: [@miiime6248]) 
 
 * **Update**: 2026.01.31
 
