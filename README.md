@@ -1,6 +1,9 @@
 # MIIIME Hybrid Launcher (MHL™)
 MIIIME Launcher · 미메런처 · ミメランチャー<br>
 
+[![VirusTotal Guide](https://img.shields.io/badge/VirusTotal-19%2F72_Detected-red?logo=virustotal)](https://www.virustotal.com/gui/file/4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097?nocache=1)
+[![Latest Release](https://img.shields.io/github/v/release/miiime6248/MHL?color=blue)](https://github.com/miiime6248/MHL/releases/latest)
+
 <br>
 <img width="559" height="136" alt="001" src="https://github.com/user-attachments/assets/6d46085c-2b46-4d34-835b-de97f2b28f7c" style="margin-top: 20px; margin-bottom: 20px;">
 <br><br>
@@ -111,6 +114,23 @@ noname_M/
 - INI 기반 설정 정의  
 - 환경 변수, 쉘 통합, 외부 에셋 주입 지원
 
+---
+
+## 🛡️ Security & Anti-virus Info
+
+This project is built using **AutoIt**. Some antivirus engines may flag it as a "False Positive" due to the nature of scripted executables.
+
+### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097?nocache=1)
+
+| Status | Details |
+| :--- | :--- |
+| **Major Vendors** | **Clean** (Passed by Microsoft Defender, Kaspersky, AhnLab V3, Avast, etc.) |
+| **Detection Rate** | 19 / 72 (Mostly Heuristic/Generic flags) |
+| **Integrity** | You can verify the source code in this repository. |
+
+> **Note:** If your antivirus blocks the program, please add it to the exclusion list or refer to the VirusTotal report above.
+
+**File Checksum (SHA-256):** `4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097`
 
 ---
 
