@@ -18,7 +18,7 @@ It is a controlled execution environment.
 - Instead of simplifying portability, it enforces consistency
 - Designed for **environment fidelity**, not user convenience
 
-미메 런처는 원클릭 포터블 솔루션이 아닙니다.  
+미메런처는 원클릭 포터블 솔루션이 아닙니다.  
 실행 환경의 정밀 제어를 위한 도구입니다.  
 
 - 시스템 동작을 은폐하지 않고 노출 합니다.  
