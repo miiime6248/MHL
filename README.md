@@ -18,8 +18,8 @@ It is a controlled execution environment.
 - Instead of simplifying portability, it enforces consistency
 - Designed for **environment fidelity**, not user convenience
 
-미메 런처는 원클릭 솔루션이 아닙니다.  
-제어된 실행 환경을 제공합니다.
+미메 런처는 원클릭 포터블 솔루션이 아닙니다.  
+정밀 제어를 통한 일관된 실행 환경 구축을 목표로 합니다.  
 
 - 시스템 동작을 은폐하지 않고 의도적으로 노출 합니다.
 - 이식성을 단순화하는 대신 환경 일관성을 강제합니다
@@ -112,7 +112,7 @@ noname_M/
 
 **[사용자 정의]**
 - INI 기반 설정 정의  
-- 환경 변수, 쉘 통합, 외부 에셋 주입 지원
+- 환경 변수, 쉘 통합, 외부 어셋 주입 지원
 
 ---
 
