@@ -75,12 +75,12 @@ It is a controlled execution environment.
 ## Configuration
 
 ### 1. Setup
-- Rename `noname_M.exe` to match the target executable name  
+- Rename `noname_M.exe` and `noname_M.ini` to match the target executable name  
 - Configure `noname_M.ini` (target path, AppName, etc.)  
 - Place the target application folder inside `App/`  
 
 **[설치]**
-- `noname_M.exe`를 타겟 실행 파일명으로 변경  
+- `noname_M.exe`, `noname_M.ini`를 타겟 실행 파일명으로 변경  
 - `noname_M.ini` 설정 구성 (타겟 경로, 앱 이름 등)  
 - `App/` 폴더 내 타겟 애플리케이션 폴더 배치
 
