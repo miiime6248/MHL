@@ -154,6 +154,6 @@ This is a **private project**. No technical support is provided.
 ## Project Information
 
 - **Developer**: MIIIME  
-- **Website**: https://www.miiime.com  https://www.c6248.com  
+- **Website**: https://www.miiime.com
 - **GitHub**: [@miiime6248](https://github.com/miiime6248)  
 - **Last Update**: 2026-01-31
