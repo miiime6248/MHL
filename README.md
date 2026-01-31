@@ -123,17 +123,14 @@ Provided **“AS IS”**, without warranty.
 This is a **private project**. No technical support is provided.
 
 본 프로그램은 **“있는 그대로”** 제공되며,  
-사용 중 발생하는 데이터 손실이나 시스템 문제에 대해  
-제작자는 책임을 지지 않습니다.
-
+사용 중 발생하는 데이터 손실이나 시스템 문제에 대해 제작자는 책임을 지지 않습니다.  
 기술 지원은 제공되지 않습니다.
-
 
 ---
 
 ## Project Information
 
 - **Developer**: MIIIME  
-- **Website**: https://www.miiime.com  
+- **Website**: https://www.miiime.com  https://www.c6248.com  
 - **GitHub**: [@miiime6248](https://github.com/miiime6248)  
 - **Last Update**: 2026-01-31
