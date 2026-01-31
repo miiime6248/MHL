@@ -1,4 +1,6 @@
 ### Miime Hybrid Launcher
+MIIIME Launcher · 미메런처 · ミメランチャー<br>
+MHL™
 
 <br>
 <img width="559" height="136" alt="001" src="https://github.com/user-attachments/assets/6d46085c-2b46-4d34-835b-de97f2b28f7c" style="margin-top: 20px; margin-bottom: 20px;">
