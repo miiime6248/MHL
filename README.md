@@ -6,14 +6,9 @@ MHL™
 <img width="559" height="136" alt="001" src="https://github.com/user-attachments/assets/6d46085c-2b46-4d34-835b-de97f2b28f7c" style="margin-top: 20px; margin-bottom: 20px;">
 <br><br>
 
-MIIIME Hybrid Launcher is a utility designed to run installed applications in a 
-portable (non-install) environment. 
-It virtualizes registries and personal settings during execution, 
-ensuring that all data is recovered and no traces are left on the host system upon exit.
+MIIIME Hybrid Launcher is a utility designed to run installed applications in a portable (non-install) environment. It virtualizes registries and personal settings during execution, ensuring that all data is recovered and no traces are left on the host system upon exit.
 
-미메런처는 설치형 프로그램을 포터블(무설치) 환경에서 구동할 수 있도록 돕는 도구입니다. 
-실행 시 레지스트리와 개인 설정을 가상화하여 관리하며, 
-종료 시 시스템에 흔적을 남기지 않고 데이터를 회수합니다.
+미메런처는 설치형 프로그램을 포터블(무설치) 환경에서 구동할 수 있도록 돕는 도구입니다. 실행 시 레지스트리와 개인 설정을 가상화하여 관리하며, 종료 시 시스템에 흔적을 남기지 않고 데이터를 회수합니다.
 
 ---
 
@@ -55,10 +50,10 @@ Run **[noname_M.exe]** to start in portable mode.
 모든 사용자 데이터는 [Dat] 폴더에 저장됩니다.
 
 
-* Files in [App/Usr/Ast] folder are automatically copied to the program folder upon first launch.
+* Files in [App/Usr/Ast] folder are automatically copied to the program folder upon first launch.  
 [App/Usr/Ast] 폴더에 파일을 넣으면 최초 실행 시 프로그램 폴더로 자동 복사됩니다.
 
-* This launcher was created with AutoIt, so some antivirus programs may incorrectly detect it as a virus.
+* This launcher was created with AutoIt, so some antivirus programs may incorrectly detect it as a virus.  
 본 런처는 AutoIt으로 제작되어 일부 백신이 바이러스로 오진 할 수 있습니다.
 
 ---
