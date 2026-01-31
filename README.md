@@ -1,4 +1,4 @@
-### Miime Hybrid Launcher
+### MIIIME Hybrid Launcher
 MIIIME Launcher · 미메런처 · ミメランチャー<br>
 MHL™
 
@@ -46,7 +46,7 @@ Run **[noname_M.exe]** to start in portable mode.
 
 ---
 
-* All user data is stored in the [Dat] folder.
+* All user data is stored in the [Dat] folder.  
 모든 사용자 데이터는 [Dat] 폴더에 저장됩니다.
 
 
@@ -66,7 +66,7 @@ Run **[noname_M.exe]** to start in portable mode.
 * This is a private project. The developer is not responsible for any issues arising from its use.  
 본 프로그램은 개인 프로젝트이며, 사용 중 발생하는 문제에 대해 제작자는 책임을 지지 않습니다.
 
-* **Developer**: Miime 
+* **Developer**: MIIIME
 
 * **Website**: [https://www.miiime.com](https://www.miiime.com) (GitHub: [@miiime6248]) 
 
