@@ -17,9 +17,9 @@ MIIIME Launcher · 미메런처 · ミメランチャー<br>
 MIIIME Hybrid Launcher (MHL™) is not a one-click portable launcher.  
 It is a controlled execution environment.
 
-- Instead of hiding system behavior, it **exposes it**
+- Instead of hiding system behavior, it exposes it
 - Instead of simplifying portability, it enforces consistency
-- Designed for **environment fidelity**, not user convenience
+- Designed for environment fidelity, not user convenience
 
 미메런처는 원클릭 포터블 솔루션이 아닙니다.  
 제어된 실행 환경을 제공합니다. 
