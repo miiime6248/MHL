@@ -121,7 +121,8 @@ noname_M/
 
 ## 🛡️ Security & Anti-virus Info
 
-This project is built using **AutoIt**. Some antivirus engines may flag it as a "False Positive" due to the nature of scripted executables.
+This project is built using **AutoIt**. Some antivirus engines may flag it as a "False Positive" due to the nature of scripted executables.  
+오토잇으로 제작되었습니다. 일부 백신에서 오진 가능성 있습니다.
 
 ### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097?nocache=1)
 
@@ -130,8 +131,6 @@ This project is built using **AutoIt**. Some antivirus engines may flag it as a 
 | **Major Vendors** | **Clean** (Passed by Microsoft Defender, Kaspersky, AhnLab V3, Avast, etc.) |
 | **Detection Rate** | 19 / 72 (Mostly Heuristic/Generic flags) |
 | **Integrity** | You can verify the source code in this repository. |
-
-> **Note:** If your antivirus blocks the program, please add it to the exclusion list or refer to the VirusTotal report above.
 
 **File Checksum (SHA-256):** `4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097`
 
@@ -145,8 +144,7 @@ This project is built using **AutoIt**. Some antivirus engines may flag it as a 
 Provided **“AS IS”**, without warranty.  
 This is a **private project**. No technical support is provided.
 
-본 프로그램은 **“있는 그대로”** 제공되며,  
-사용 중 발생하는 데이터 손실이나 시스템 문제에 대해 제작자는 책임을 지지 않습니다.  
+본 프로그램은 **“있는 그대로”** 제공되며, 사용 중 발생하는 문제에 대해 제작자는 책임을 지지 않습니다.  
 기술 지원은 제공되지 않습니다.
 
 ---
