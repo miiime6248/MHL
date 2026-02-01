@@ -17,9 +17,9 @@ MIIIMELauncher · 미메런처 · ミメランチャー<br>
 MIIIME Hybrid Launcher (MHL™) is not a one-click portable launcher.  
 It is a controlled execution environment.
 
-- Instead of hiding system behavior, it exposes it
-- Instead of simplifying portability, it enforces consistency
-- Designed for environment fidelity, not user convenience
+- Instead of hiding system behavior, it exposes it.
+- Instead of simplifying portability, it enforces consistency.
+- Not recommended unless you have a thorough understanding of file systems and registry structures.
 
 미메런처는 원클릭 포터블 솔루션이 아닙니다.  
 제어된 실행 환경을 제공합니다. 
@@ -27,7 +27,6 @@ It is a controlled execution environment.
 - 시스템 동작을 은폐하지 않고 노출합니다.  
 - 이식의 단순화 대신 환경의 일관성을 강화합니다.  
 - 파일 시스템 및 레지스트리 구조에 대한 이해가 없는 경우 사용을 권장하지 않습니다.  
-
 
 ---
 
@@ -132,8 +131,8 @@ This project is built using **AutoIt**. Some antivirus engines may flag it as a 
 | **Detection Rate** | 19 / 72 (Mostly Heuristic/Generic flags) |
 | **Integrity** | You can verify the source code in this repository. |
 
-**File Checksum (SHA-256):** `4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097`
-
+> **Note:** If your antivirus blocks the program, please add it to the exclusion list or refer to the VirusTotal report above.
+> 
 ---
 
 <br>
