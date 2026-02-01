@@ -1,5 +1,5 @@
 # MIIIME Hybrid Launcher (MHL™)
-MIIIME Launcher · 미메런처 · ミメランチャー<br>
+MIIIMELauncher · 미메런처 · ミメランチャー<br>
 
 ![OS](https://img.shields.io/badge/Platform-Windows-0078D4?logo=windows&style=flat-square)
 ![Arch](https://img.shields.io/badge/Architecture-x86-blue?style=flat-square)
