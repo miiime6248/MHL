@@ -132,7 +132,10 @@ This project is built using **AutoIt**. Some antivirus engines may flag it as a 
 | **Integrity** | You can verify the source code in this repository. |
 
 > **Note:** If your antivirus blocks the program, please add it to the exclusion list or refer to the VirusTotal report above.
-> 
+
+**File Checksum (SHA-256):**
+`4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097`
+
 ---
 
 <br>
