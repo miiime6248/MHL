@@ -5,7 +5,6 @@ MIIIMELauncher · 미메런처 · ミメランチャー<br>
 ![Arch](https://img.shields.io/badge/Architecture-x86-blue?style=flat-square)
 [![Language](https://img.shields.io/badge/Language-AutoIt-orange?logo=autoit&style=flat-square)](https://www.autoitscript.com/site/)
 ![License](https://img.shields.io/badge/License-Freeware-lightgrey?style=flat-square)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-19%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097)
 
 <br>
 <img width="559" height="136" alt="001" src="https://github.com/user-attachments/assets/6d46085c-2b46-4d34-835b-de97f2b28f7c" style="margin-top: 20px; margin-bottom: 20px;">
@@ -119,6 +118,8 @@ noname_M/
 ---
 
 ## 🛡️ Security & Anti-virus Info
+
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-19%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097)
 
 This project is built using **AutoIt**. Some antivirus engines may flag it as a "False Positive" due to the nature of scripted executables.  
 오토잇으로 제작되었습니다. 일부 백신에서 오진 가능성 있습니다.
