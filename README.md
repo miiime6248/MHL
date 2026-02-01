@@ -44,11 +44,11 @@ It is a controlled execution environment.
 
 ### 2. Forensic Recovery
 - **Session Tracking**: Monitors PID and Temp artifacts for crash detection  
-- **Rollback**: Restores previous state via `*.reg.bakk` snapshots on abnormal termination  
+- **Rollback**: Restores previous state via snapshots on abnormal termination  
 
 **[포렌식 복구]**
 - **세션 추적**: 크래시 감지를 위해 PID 및 Temp 잔존 흔적 모니터링  
-- **롤백**: 비정상 종료 시 `*.reg.bakk` 스냅샷을 통한 이전 상태 복원
+- **롤백**: 비정상 종료 시 스냅샷을 통한 이전 상태 복원
 
 
 ### 3. Registry Management
