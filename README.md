@@ -76,24 +76,24 @@ It is a controlled execution environment.
 ## Configuration
 
 ### 1. Setup
-- Rename `noname_M.exe` and `noname_M.ini` to match the target executable name  
-- Configure `noname_M.ini` (target path, AppName, etc.)  
+- Rename `TargetApp_M.exe` and `TargetApp_M.ini` to match the target executable name  
+- Configure `TargetApp_M.ini` (target path, AppName, etc.)  
 - Place the target application folder inside `App/`  
 
 **[설치]**
-- `noname_M.exe`, `noname_M.ini`를 타겟 실행 파일명으로 변경  
-- `noname_M.ini` 설정 구성 (타겟 경로, 앱 이름 등)  
+- `TargetApp_M.exe`, `TargetApp_M.ini`를 타겟 실행 파일명으로 변경  
+- `TargetApp_M.ini` 설정 구성 (타겟 경로, 앱 이름 등)  
 - `App/` 폴더 내 타겟 애플리케이션 폴더 배치
 
 
 ### 2. Directory Structure
 ```text
-noname_M/
- ├─ noname_M.exe            # Launcher / 런처
- ├─ noname_M.ini            # Configuration / 설정
+TargetApp_M/
+ ├─ TargetApp_M.exe         # Launcher / 런처
+ ├─ TargetApp_M.ini         # Configuration / 설정
  ├─ Dat/                    # User Data (Auto-generated) / 사용자 데이터 (자동 생성)
  └─ App/
-     ├─ noname/             # Target Application / 타겟 앱
+     ├─ TargetApp/          # Target Application / 타겟 앱
      ├─ RawDat/             # Default Data Template / 데이터 템플릿
      │   ├─ AppDat/
      │   │   ├─ Local/
