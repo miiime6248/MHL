@@ -97,17 +97,17 @@ TargetApp_M/
   ├─ App/                      # Core Files & Templates 
   │   ├─ TargetApp/            # Target Application Binaries 
   │   └─ RawDat/               # Default Data Template 
-  │       ├─ AppDat/           # Sandbox: Local, LocalLow, Roaming
-  │       ├─ Reg/              # Registry: .reg templates 
-  │       ├─ Set/              # Settings: App folder merging 
-  │       └─ Usr/              # User Profile: %USERPROFILE% injection
+  │       ├─ AppDat/           # Sandbox : Local, LocalLow, Roaming
+  │       ├─ Reg/              # Registry : .reg templates 
+  │       ├─ Set/              # Settings : App folder merging 
+  │       └─ Usr/              # User Profile : %USERPROFILE% injection
   │
   ├─ Dat/                      # Active User Data (Persistent) 
   │
   └─ Ext/                      # Extensions & Resources 
-      ├─ Ast/                  # Assets: Runtime app directory copy
-      ├─ Inj/                  # Injection: Host system file injection
-      └─ Res/                  # UI Resources: Splash & Icons
+      ├─ Ast/                  # Assets : Runtime app directory copy
+      ├─ Inj/                  # Injection : Host system file injection
+      └─ Res/                  # UI Resources : Splash & Icons
 ```
 
 **[디렉토리 구조]**
@@ -169,7 +169,6 @@ TargetApp_M/
 > **Note:** If your antivirus (such as Microsoft Defender or CrowdStrike) blocks the program, please refer to the VirusTotal report above or add the file to your exclusion list.  
 
 Microsoft Defender 및 일부 엔터프라이즈 보안 엔진에서 오진될 수 있습니다.  
-프로그램 실행이 차단될 경우, 위 리포트를 확인하시거나 백신의 예외 목록(Exclusion list)에 추가하여 사용하세요.
 
 **File Checksum (SHA-256):** `b579e8d4750020218cd744f9ab15089524f73cbe8fa535dd8f70e43d4e251064`
 
