@@ -10,10 +10,7 @@ MIIIMELauncher · 미메런처 · ミメランチャー<br>
 <img width="559" height="136" alt="001" src="https://github.com/user-attachments/assets/6d46085c-2b46-4d34-835b-de97f2b28f7c" style="margin-top: 20px; margin-bottom: 20px;">
 <br><br>
 
-> Not a one-click solution.  
-> A controlled execution environment designed for consistency, not convenience.
-
-MIIIME Hybrid Launcher (MHL™) is not a one-click portable launcher.  
+MIIIME Hybrid Launcher (MHL™) is not a one-click portable solution.  
 It is a controlled execution environment.
 
 - Instead of hiding system behavior, it exposes it.
@@ -160,23 +157,24 @@ TargetApp_M/
 
 ## 🛡️ Security & Anti-virus Info
 
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-19%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-12%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/b579e8d4750020218cd744f9ab15089524f73cbe8fa535dd8f70e43d4e251064)
 
-This project is built using **AutoIt**. Some antivirus engines may flag it as a "False Positive" due to the nature of scripted executables.  
-오토잇으로 제작되었습니다. 일부 백신에서 오진 가능성 있습니다.
-
-### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097?nocache=1)
+### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/b579e8d4750020218cd744f9ab15089524f73cbe8fa535dd8f70e43d4e251064)
 
 | Status | Details |
 | :--- | :--- |
-| **Major Vendors** | **Clean** (Passed by Microsoft Defender, Kaspersky, AhnLab V3, Avast, etc.) |
-| **Detection Rate** | 19 / 72 (Mostly Heuristic/Generic flags) |
-| **Integrity** | You can verify the source code in this repository. |
+| **Major Vendors** | **Clean** (Passed by AhnLab V3, Kaspersky, McAfee, Avast, ESET, etc.) |
+| **Detection Rate** | **12 / 72** (Mostly Heuristic/Generic/Trojan-type flags) |
+| **Integrity** | The source code is transparently available for verification in this repository. |
 
-> **Note:** If your antivirus blocks the program, please add it to the exclusion list or refer to the VirusTotal report above.
+> **Note:** If your antivirus (such as Microsoft Defender or CrowdStrike) blocks the program, please refer to the VirusTotal report above or add the file to your exclusion list.  
 
-**File Checksum (SHA-256):**
-`4f08d078fc78b8853185c2477b624648921276cdc0cef866fc8feb53a0960097`
+Microsoft Defender 및 일부 엔터프라이즈 보안 엔진에서 오진될 수 있습니다.  
+프로그램 실행이 차단될 경우, 위 리포트를 확인하시거나 백신의 예외 목록(Exclusion list)에 추가하여 사용하세요.
+
+**File Checksum (SHA-256):** `b579e8d4750020218cd744f9ab15089524f73cbe8fa535dd8f70e43d4e251064`
+
+
 
 ---
 
