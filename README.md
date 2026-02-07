@@ -4,7 +4,6 @@ MIIIMELauncher · 미메런처 · ミメランチャー<br>
 ![OS](https://img.shields.io/badge/Platform-Windows-0078D4?logo=windows&style=flat-square)
 ![Arch](https://img.shields.io/badge/Architecture-x86-blue?style=flat-square)
 [![Language](https://img.shields.io/badge/Language-AutoIt-orange?logo=autoit&style=flat-square)](https://www.autoitscript.com/site/)
-![License](https://img.shields.io/badge/License-Freeware-lightgrey?style=flat-square)
 
 <br>
 <img width="559" height="136" alt="001" src="https://github.com/user-attachments/assets/6d46085c-2b46-4d34-835b-de97f2b28f7c" style="margin-top: 20px; margin-bottom: 20px;">
@@ -156,23 +155,21 @@ TargetApp_M/
 
 ## 🛡️ Security & Anti-virus Info
 
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-12%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/b579e8d4750020218cd744f9ab15089524f73cbe8fa535dd8f70e43d4e251064)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-11%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.google.com/search?q=https://www.virustotal.com/gui/file/ffe6c9e9ec2223d37a36b1e3c9e7fe318ef5ee4ff8bd51bfc2285e104d313ac5)
 
-### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/b579e8d4750020218cd744f9ab15089524f73cbe8fa535dd8f70e43d4e251064)
+### [✅ VirusTotal Analysis Report](https://www.google.com/search?q=https://www.virustotal.com/gui/file/ffe6c9e9ec2223d37a36b1e3c9e7fe318ef5ee4ff8bd51bfc2285e104d313ac5)
 
 | Status | Details |
-| :--- | :--- |
-| **Major Vendors** | **Clean** (Passed by AhnLab V3, Kaspersky, McAfee, Avast, ESET, etc.) |
-| **Detection Rate** | **12 / 72** (Mostly Heuristic/Generic/Trojan-type flags) |
+| --- | --- |
+| **Major Vendors** | **Clean** (Passed by AhnLab-V3, Kaspersky, BitDefender, Microsoft, ESET, etc.) |
+| **Detection Rate** | **11 / 72** (Mostly Heuristic/Trojan-type flags by minor vendors) |
 | **Integrity** | The source code is transparently available for verification in this repository. |
 
-> **Note:** If your antivirus (such as Microsoft Defender or CrowdStrike) blocks the program, please refer to the VirusTotal report above or add the file to your exclusion list.  
+> **Note:** If your antivirus blocks the program, please add it to the exclusion list or refer to the VirusTotal report above.  
 
-Microsoft Defender 및 일부 엔터프라이즈 보안 엔진에서 오진될 수 있습니다.  
+오토잇으로 제작되었습니다. 일부 보안 엔진에서 오진(False Positive)될 수 있습니다. 
 
-**File Checksum (SHA-256):** `b579e8d4750020218cd744f9ab15089524f73cbe8fa535dd8f70e43d4e251064`
-
-
+**File Checksum (SHA-256):** `ffe6c9e9ec2223d37a36b1e3c9e7fe318ef5ee4ff8bd51bfc2285e104d313ac5`
 
 ---
 
