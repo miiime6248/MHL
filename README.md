@@ -108,7 +108,6 @@ TargetApp_M/
       ├─ Ast/                  # Assets: Runtime app directory copy
       ├─ Inj/                  # Injection: Host system file injection
       └─ Res/                  # UI Resources: Splash & Icons
-
 ```
 
 **[디렉토리 구조]**
