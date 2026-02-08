@@ -155,9 +155,9 @@ TargetApp_M/
 
 ## 🛡️ Security & Anti-virus Info
 
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-11%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.google.com/search?q=https://www.virustotal.com/gui/file/ffe6c9e9ec2223d37a36b1e3c9e7fe318ef5ee4ff8bd51bfc2285e104d313ac5)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-11%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/d12999d1d5009052b69843b823dde7048ccaebca87c70e85af1527865e3e58ca?nocache=1)
 
-### [✅ VirusTotal Analysis Report](https://www.google.com/search?q=https://www.virustotal.com/gui/file/ffe6c9e9ec2223d37a36b1e3c9e7fe318ef5ee4ff8bd51bfc2285e104d313ac5)
+### [✅ VirusTotal Analysis Report](https://www.google.com/search?q=https://www.virustotal.com/gui/file/d12999d1d5009052b69843b823dde7048ccaebca87c70e85af1527865e3e58ca?nocache=1)
 
 | Status | Details |
 | --- | --- |
@@ -169,7 +169,7 @@ TargetApp_M/
 
 오토잇으로 제작되었습니다. 일부 보안 엔진에서 오진(False Positive)될 수 있습니다. 
 
-**File Checksum (SHA-256):** `ffe6c9e9ec2223d37a36b1e3c9e7fe318ef5ee4ff8bd51bfc2285e104d313ac5`
+**File Checksum (SHA-256):** `d12999d1d5009052b69843b823dde7048ccaebca87c70e85af1527865e3e58ca`
 
 ---
 
