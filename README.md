@@ -10,18 +10,16 @@ MIIIMELauncher · 미메런처 · ミメランチャー<br>
 <img width="559" height="136" alt="001" src="https://github.com/user-attachments/assets/6d46085c-2b46-4d34-835b-de97f2b28f7c" style="margin-top: 20px; margin-bottom: 20px;">
 <br><br>
 
-MIIIME Hybrid Launcher (MHL™) is not a one-click portable solution.  
-It is a controlled execution environment.
+MIIIMELauncher is not a one-click portable solution. It is a controlled execution environment.  
 
 - Instead of hiding system behavior, it exposes it.
 - Instead of simplifying portability, it enforces consistency.
 - Not recommended unless you have a thorough understanding of file systems and registry structures.
 
-미메런처는 원클릭 포터블 솔루션이 아닙니다.  
-제어된 실행 환경을 제공합니다. 
+미메런처는 원클릭 포터블 솔루션이 아닙니다. 제어된 실행 환경을 제공합니다.  
 
-- 시스템 동작을 은폐하지 않고 노출합니다.  
-- 이식의 단순화 대신 환경의 일관성을 강화합니다.  
+- 시스템 동작을 숨기는 대신 노출합니다.   
+- 이식성을 단순화하는 대신 일관성을 강화합니다.  
 - 파일 시스템 및 레지스트리 구조에 대한 이해가 없는 경우 사용을 권장하지 않습니다.  
 
 ---
@@ -112,7 +110,7 @@ TargetApp_M/
       ├─ RegFix/               # Registry Patcher
       └─ Resources/            # UI Resources (Icon, Splash)
 
-      Adv_ Extension file is for ADVANCED USERS ONLY
+      Adv_ Extension files are for ADVANCED USERS ONLY
 
 ```
 
@@ -151,10 +149,11 @@ TargetApp_M/
 | **Detection Rate** | **10 / 72** (Mostly Heuristic/Generic/Trojan-type flags) |
 | **Integrity** | The source code is transparently available for verification in this repository. |
 
-> **Note:** This project is built using AutoIt.  
-> Some antivirus engines may flag it as a "False Positive" due to the nature of scripted executables.
+> This launcher uses `regedit` and `mklink`.  
+> There is a possibility of virus false positives in some vaccines.
 
-오토잇으로 제작되었습니다. 일부 보안 엔진에서 오진(False Positive)될 수 있습니다. 
+이 런처는 `regedit`, `mklink`를 사용합니다.  
+일부 백신에서 바이러스로 탐지 될 수 있습니다.   
 
 **File Checksum (SHA-256):** `7777eb1f9f7eb482b59118a23ac0a4a4a9d04a1fe2a3eaa5552439f21b47f570`
 
