@@ -140,18 +140,18 @@ TargetApp_M/
 
 ## 🛡️ Security & Anti-virus Info
 
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-10%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/7777eb1f9f7eb482b59118a23ac0a4a4a9d04a1fe2a3eaa5552439f21b47f570/detection)
-### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/7777eb1f9f7eb482b59118a23ac0a4a4a9d04a1fe2a3eaa5552439f21b47f570/detection)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-10%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/a315e8485875f14374a025d0d8ee58ef54d3c4f1fec8eb4bfa166cebd306b60a?nocache=1)
+### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/a315e8485875f14374a025d0d8ee58ef54d3c4f1fec8eb4bfa166cebd306b60a?nocache=1)
 | Status | Details |
 | :--- | :--- |
 | **Major Vendors** | **Clean** (Passed by AhnLab V3, Kaspersky, Microsoft, Avast, ESET, etc.) |
 | **Detection Rate** | **10 / 72** (Mostly Heuristic/Generic/Trojan-type flags) |
 | **Integrity** | The source code is transparently available for verification in this repository. |
 
-> This launcher uses `regedit` and `mklink`. There is a possibility of virus false positives in some vaccines.  
-> 이 런처는 `regedit`, `mklink`를 사용합니다. 일부 백신에서 바이러스로 탐지 될 수 있습니다.   
+> This launcher was created with AutoIt. Some antivirus programs may incorrectly detect it as a virus.  
+> 본 런처는 AutoIt으로 제작되었습니다. 일부 백신이 바이러스로 오진 할 수 있습니다. 
 
-**File Checksum (SHA-256):** `7777eb1f9f7eb482b59118a23ac0a4a4a9d04a1fe2a3eaa5552439f21b47f570`
+**File Checksum (SHA-256):** `a315e8485875f14374a025d0d8ee58ef54d3c4f1fec8eb4bfa166cebd306b60a`
 
 ---
 
