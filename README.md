@@ -5,6 +5,7 @@ MIIIMELauncher · 미메런처 · ミメランチャー<br>
 ![Arch](https://img.shields.io/badge/Architecture-x86-blue?style=flat-square)
 [![Language](https://img.shields.io/badge/Language-AutoIt-orange?logo=autoit&style=flat-square)](https://www.autoitscript.com/site/)
 ![License](https://img.shields.io/badge/License-Freeware-lightgrey?style=flat-square)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-10%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/a315e8485875f14374a025d0d8ee58ef54d3c4f1fec8eb4bfa166cebd306b60a?nocache=1)
 
 <br>
 <img width="559" height="136" alt="001" src="https://github.com/user-attachments/assets/6d46085c-2b46-4d34-835b-de97f2b28f7c" style="margin-top: 20px; margin-bottom: 20px;">
@@ -20,6 +21,15 @@ Not recommended unless you have a thorough understanding of file systems and reg
 시스템 동작을 숨기는 대신 노출합니다.   
 이식성을 단순화하는 대신 일관성을 강화합니다.  
 파일 시스템 및 레지스트리 구조에 대한 이해가 없는 경우 사용을 권장하지 않습니다.  
+
+---
+
+## Technical Stack
+
+* **Core Engine**: AutoIt3, WinAPI (Kernel32, User32, Advapi32)
+* **Process Management**: WMI (Windows Management Instrumentation) query-based monitoring.
+* **FileSystem**: NTFS Junction Points (Reparse Points) & Physical Fallback.
+* **Registry**: Native Hive Injection/Retrieval via Regedit binaries.
 
 ---
 
@@ -53,15 +63,7 @@ Not recommended unless you have a thorough understanding of file systems and reg
 - **무결성** : 백업 시 긴 키 경로에 대한 해싱(MD5) 적용.
 - **정리** : 루트 키 가지치기 및 검증된 회수 수행.   
 
-### 4. Extensibility (Plugin Architecture)
-- **Modular Plugins** : Features like UserProfile, Shell, and Injection are separated into independent modules.
-- **Isolation** : Each plugin operates with its own configuration, minimizing core dependency.
-
-**[확장성 (플러그인 아키텍처)]**
-- **모듈형 플러그인** : 사용자 프로필, 쉘 통합, 시스템 주입 등의 기능을 독립 모듈로 분리.
-- **격리성** : 각 플러그인은 고유 설정을 가지며 코어 의존성을 최소화.
-
-### 5. Volatility Control (Freeze Mode)
+### 4. Volatility Control (Freeze Mode)
 - **Read-Only** : Forces volatile state; no write-back to storage.  
 - **Auto-Redirection** : Relocates execution context to Host Temp on RO media  
   (CD / ISO / Write-Protected USB).  
@@ -69,10 +71,18 @@ Not recommended unless you have a thorough understanding of file systems and reg
 **[휘발성 제어 (동결 모드)]**
 - **읽기 전용** : 휘발성 상태 강제, 스토리지 쓰기 방지.  
 - **자동 우회** : RO 미디어(CD/ISO/USB) 감지 시 호스트 Temp로 실행 컨텍스트 자동 재배치.
+  
+### 5. Extensibility (Plugin Architecture)
+- **Modular Plugins** : Features like UserProfile, Shell, and Injection are separated into independent modules.
+- **Isolation** : Each plugin operates with its own configuration, minimizing core dependency.
+
+**[확장성 (플러그인 아키텍처)]**
+- **모듈형 플러그인** : 사용자 프로필, 쉘 통합, 시스템 주입 등의 기능을 독립 모듈로 분리.
+- **격리성** : 각 플러그인은 고유 설정을 가지며 코어 의존성을 최소화.
 
 ---
 
-## Configuration
+## Configuration 
 
 ### 1. Quick Setup
 - **Naming Convention** : The filenames `TargetApp_M.exe` and `TargetApp_M.ini` must match the name of the target executable file.  
@@ -84,7 +94,7 @@ Not recommended unless you have a thorough understanding of file systems and reg
   관리 및 식별을 위해 파일명 끝에 반드시 `_M` 접미사를 포함 해야 함.  
 - **바이너리 배치** : 타겟 애플리케이션 폴더를 `App/` 디렉토리 내부에 배치.  
 
-### 2. Directory Structure
+### 2. Directory Structure 
 ```text
 TargetApp_M/
   │
@@ -110,7 +120,6 @@ TargetApp_M/
       └─ Resources/            # UI Resources (Icon, Splash)
 
       Adv_ Extension files are for ADVANCED USERS ONLY
-
 ```
 
 **[디렉토리 구조]**
@@ -121,32 +130,56 @@ TargetApp_M/
 * **Ext 영역** : 기능 확장을 위한 플러그인(프로필 가상화, 시스템 주입, 쉘 통합 등) 폴더.  
                  (주의 : Adv_ 플러그인은 고급 사용자 전용입니다.)
 
-### 3. Technical Specification (INI)
+### 3. Technical Specification (`ini`)
+
+#### **[INI Parameters] (`TargetApp_M.ini`)**
+
+Key configuration values for the launcher behavior.  
+런처 동작을 제어하는 주요 설정 값. 
+
+| Parameter | Section | Type | Description |
+| --- | --- | --- | --- |
+| `RunAsAdmin` | Launch | Bool | 1=Force Administrator privileges, 0=User mode |
+| `UseJunction` | Options | Bool | **1=Symbolic Link (Recommended)**, 0=Physical Copy mode |
+| `FreezeMode` | Options | Bool | 1=Non-persistent (Volatile / Read-Only), 0=Persistent |
+| `LogLevel` | Options | Int | 0=Off, 1=All, 2=Debug, 3=Info, 4=Warn, 5=Error |
+| `ProcessCheckInterval` | Advanced | Int | Polling interval (ms) for child process monitoring |
 
 #### **[Environment] & Macros**
 
-* **Macro System**: Supports a powerful macro system for path flexibility.
+**Macro System**: Supports a macro system for path flexibility.  
+**매크로 시스템** : 경로 유연성을 위해 매크로 시스템을 지원.
+
 * **Paths** : `{Base}`, `{Run}`, `{Dat}`, `{Raw}`, `{Ext}`
 * **System** : `{Windows}`, `{System32}`, `{SysNative}`, `{ProgramFiles}`, `{CommonFiles}`, `{UserProfile}`, `{Docs}`
 * **AppData** : `{Local}`, `{LocalLow}`, `{Roaming}`
 
-**[환경 및 매크로]**
+---
 
-* **매크로 시스템** : 경로 유연성을 위해 강력한 매크로 시스템을 지원.
-* **경로 매크로** : 기본 경로(`{Base}`), 실행 경로(`{Run}`), 데이터 경로(`{Dat}`) 등을 포함.
-* **시스템 및 앱데이터** : 윈도우 주요 시스템 폴더 및 AppData 경로 자동 매핑.
+## CLI Arguments
+
+Supported command-line arguments for debugging and maintenance.  
+디버깅 및 유지보수를 위해 지원되는 명령줄 인수.
+
+```bash
+TargetApp_M.exe [Options]
+
+```
+| Argument | Description |
+| --- | --- |
+| `--clean` | **Force Cleanup**: Deletes the `Dat/` directory and resets the environment |
+| `--debug` | **Debug Mode**: Forces `LogLevel=2` (DEBUG) regardless of INI settings |
 
 ---
 
 ## 🛡️ Security & Anti-virus Info
 
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-10%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/a315e8485875f14374a025d0d8ee58ef54d3c4f1fec8eb4bfa166cebd306b60a?nocache=1)
 ### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/a315e8485875f14374a025d0d8ee58ef54d3c4f1fec8eb4bfa166cebd306b60a?nocache=1)
 | Status | Details |
 | :--- | :--- |
 | **Major Vendors** | **Clean** (Passed by AhnLab V3, Kaspersky, Microsoft, Avast, ESET, etc.) |
 | **Detection Rate** | **10 / 72** (Mostly Heuristic/Generic/Trojan-type flags) |
-| **Integrity** | The source code is transparently available for verification in this repository. |
+| **Integrity** | The source code is transparently available for verification in this repository |
 
 > This launcher was created with AutoIt. Some antivirus programs may incorrectly detect it as a virus.  
 > 본 런처는 AutoIt으로 제작되었습니다. 일부 백신이 바이러스로 오진 할 수 있습니다. 
@@ -154,9 +187,6 @@ TargetApp_M/
 **File Checksum (SHA-256):** `a315e8485875f14374a025d0d8ee58ef54d3c4f1fec8eb4bfa166cebd306b60a`
 
 ---
-
-<br>
-<img width="64" height="64" alt="002" src="https://github.com/user-attachments/assets/bbe6602c-b38f-4db5-b7cd-3e4cbc2e4f86" style="margin-top: 20px; margin-bottom: 20px;">
 
 ## Disclaimer
 
@@ -170,7 +200,16 @@ This is a **private project**. No technical support is provided.
 
 ## Project Information
 
-- **Developer** : MIIIME  
-- **Website** : https://www.miiime.com
-- **GitHub** : [@miiime6248](https://github.com/miiime6248)  
-- **Last Update** : 2026-02-14
+**Developer** : MIIIME  
+**Website** : https://www.miiime.com  
+**GitHub** : [@miiime6248](https://github.com/miiime6248)  
+**Last Update** : 2026-02-14  
+
+<br>
+<img width="64" height="64" alt="002" src="https://github.com/user-attachments/assets/bbe6602c-b38f-4db5-b7cd-3e4cbc2e4f86">  
+<br>
+<br>
+<br>
+
+
+
