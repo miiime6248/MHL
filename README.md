@@ -26,10 +26,10 @@ Not recommended unless you have a thorough understanding of file systems and reg
 
 ## Technical Stack
 
-* **Core Engine**: AutoIt3, WinAPI (Kernel32, User32, Advapi32)
-* **Process Management**: WMI (Windows Management Instrumentation) query-based monitoring.
-* **FileSystem**: NTFS Junction Points (Reparse Points) & Physical Fallback.
-* **Registry**: Native Hive Injection/Retrieval via Regedit binaries.
+* **Core Engine** : AutoIt3, WinAPI (Kernel32, User32, Advapi32)
+* **Process Management** : WMI (Windows Management Instrumentation) query-based monitoring.
+* **FileSystem** : NTFS Junction Points (Reparse Points) & Physical Fallback.
+* **Registry** : Native Hive Injection/Retrieval via Regedit binaries.
 
 ---
 
@@ -87,7 +87,7 @@ Not recommended unless you have a thorough understanding of file systems and reg
 ### 1. Quick Setup
 - **Naming Convention** : The filenames `TargetApp_M.exe` and `TargetApp_M.ini` must match the name of the target executable file.  
   The suffix `_M` must be included at the end of the filename for management and identification purposes.
-- **Binary Placement**: Place the target application folder inside the `App/` directory.
+- **Binary Placement** : Place the target application folder inside the `App/` directory.
 
 **[빠른 설정]**
 - **네이밍 규칙** : `TargetApp_M.exe` 및 `TargetApp_M.ini` 파일명은 타겟 실행 파일과 일치해야 하며,  
@@ -147,7 +147,7 @@ Key configuration values for the launcher behavior.
 
 #### **[Environment] & Macros**
 
-**Macro System**: Supports a macro system for path flexibility.  
+**Macro System** : Supports a macro system for path flexibility.  
 **매크로 시스템** : 경로 유연성을 위해 매크로 시스템을 지원.
 
 * **Paths** : `{Base}`, `{Run}`, `{Dat}`, `{Raw}`, `{Ext}`
@@ -184,7 +184,7 @@ TargetApp_M.exe [Options]
 > This launcher was created with AutoIt. Some antivirus programs may incorrectly detect it as a virus.  
 > 본 런처는 AutoIt으로 제작되었습니다. 일부 백신이 바이러스로 오진 할 수 있습니다. 
 
-**File Checksum (SHA-256):** `b162ae288550e4b13284b055e1bcf5b2dea2a6a9f8f3216da376195adc9ae9fe`
+**File Checksum (SHA-256) :** `b162ae288550e4b13284b055e1bcf5b2dea2a6a9f8f3216da376195adc9ae9fe`
 
 ---
 
