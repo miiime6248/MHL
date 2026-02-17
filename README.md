@@ -45,15 +45,7 @@ Not recommended unless you have a thorough understanding of file systems and reg
 - **Non-NTFS** : 물리적 Swap 모드로 자동 전환.
 - **안전성** : 파일 잠김 발생 시 스마트 재시도 로직을 통해 데이터 무결성 보장.
 
-### 2. Forensic Recovery
-- **Session Tracking** : Validates session integrity via UUID and PID monitoring.
-- **Rollback** : Transaction-based recovery using `*.reg.bakk` snapshots.
-
-**[포렌식 복구]**
-- **세션 추적** : UUID 및 PID 모니터링을 통한 세션 무결성 검증.
-- **롤백** : 트랜잭션 기반의 스냅샷(`*.reg.bakk`)을 이용한 정밀 복구.
-
-### 3. Registry Management
+### 2. Registry Management
 - **Injection** : Seamless integration of HKCU keys.
 - **Integrity** : Hashing (MD5) applied to long key paths during backup.
 - **Cleanup** : Root key pruning and verified retrieval.
@@ -61,7 +53,15 @@ Not recommended unless you have a thorough understanding of file systems and reg
 **[레지스트리 관리]**
 - **주입** : HKCU 키의 무결절 통합.
 - **무결성** : 백업 시 긴 키 경로에 대한 해싱(MD5) 적용.
-- **정리** : 루트 키 가지치기 및 검증된 회수 수행.   
+- **정리** : 루트 키 가지치기 및 검증된 회수 수행.
+
+### 3. Forensic Recovery
+- **Session Tracking** : Validates session integrity via UUID and PID monitoring.
+- **Rollback** : Transaction-based recovery using `*.reg.bakk` snapshots.
+
+**[포렌식 복구]**
+- **세션 추적** : UUID 및 PID 모니터링을 통한 세션 무결성 검증.
+- **롤백** : 트랜잭션 기반의 스냅샷(`*.reg.bakk`)을 이용한 정밀 복구.
 
 ### 4. Volatility Control (Freeze Mode)
 - **Read-Only** : Forces volatile state; no write-back to storage.  
