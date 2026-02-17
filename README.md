@@ -5,7 +5,7 @@ MIIIMELauncher · 미메런처 · ミメランチャー<br>
 ![Arch](https://img.shields.io/badge/Architecture-x86-blue?style=flat-square)
 [![Language](https://img.shields.io/badge/Language-AutoIt-orange?logo=autoit&style=flat-square)](https://www.autoitscript.com/site/)
 ![License](https://img.shields.io/badge/License-Freeware-lightgrey?style=flat-square)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-9%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/6e238ff9de0ba456ece8625b469f5685531a255a29ed3bfdf0fd561882c7e727?nocache=1)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-10%2F72_Detected-red?logo=virustotal&style=flat-square)](https://www.virustotal.com/gui/file/a3678fd4c6cd79112e92e23966d44dee222d30b8a7b133a9c5827bdb6e4b4006?nocache=1)
 
 <br>
 <img width="559" height="136" alt="001" src="https://github.com/user-attachments/assets/6d46085c-2b46-4d34-835b-de97f2b28f7c" style="margin-top: 20px; margin-bottom: 20px;">
@@ -174,17 +174,17 @@ TargetApp_M.exe [Options]
 
 ## 🛡️ Security & Anti-virus Info
 
-### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/6e238ff9de0ba456ece8625b469f5685531a255a29ed3bfdf0fd561882c7e727?nocache=1)
+### [✅ VirusTotal Analysis Report](https://www.virustotal.com/gui/file/a3678fd4c6cd79112e92e23966d44dee222d30b8a7b133a9c5827bdb6e4b4006?nocache=1)
 | Status | Details |
 | :--- | :--- |
 | **Major Vendors** | **Clean** (Passed by AhnLab V3, Kaspersky, Microsoft, Avast, ESET, etc.) |
-| **Detection Rate** | **9 / 72** (Mostly Heuristic/Generic/Trojan-type flags) |
+| **Detection Rate** | **10 / 72** (Mostly Heuristic/Generic/Trojan-type flags) |
 | **Integrity** | The source code is transparently available for verification in this repository |
 
 > This launcher was created with AutoIt. Some antivirus programs may incorrectly detect it as a virus.  
 > 본 런처는 AutoIt으로 제작되었습니다. 일부 백신이 바이러스로 오진 할 수 있습니다. 
 
-**File Checksum (SHA-256) :** `6e238ff9de0ba456ece8625b469f5685531a255a29ed3bfdf0fd561882c7e727`
+**File Checksum (SHA-256) :** `a3678fd4c6cd79112e92e23966d44dee222d30b8a7b133a9c5827bdb6e4b4006`
 
 ---
 
