@@ -85,7 +85,8 @@ Not recommended unless you have a thorough understanding of file systems and reg
 ## Configuration 
 
 ### 1. Quick Setup
-- **Naming Convention** : The filenames `TargetApp_M.exe` and `TargetApp_M.ini` must match the name of the target executable file.  
+- **Naming Convention** : The filenames `TargetApp_M.exe` and `TargetApp_M.ini`  
+  must match the name of the target executable file.  
   The suffix `_M` must be included at the end of the filename for management and identification purposes.
 - **Binary Placement** : Place the target application folder inside the `App/` directory.
 
