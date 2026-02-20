@@ -1,5 +1,5 @@
 Non-Commercial License (Private Project)
-Copyright ⓒ 2026 MIIIME (https://www.miiime.com)
+Copyright © 2026 MIIIME (https://www.miiime.com)
 
 1. This software is provided for personal and non-commercial use only.
 2. Redistribution of the original package is allowed, but commercial use or selling the software is strictly prohibited.
@@ -10,7 +10,7 @@ Copyright ⓒ 2026 MIIIME (https://www.miiime.com)
 ------------------------------------------------------------------------
 
 비상업적 이용 약관 (개인 프로젝트)
-저작권 ⓒ 2026 MIIIME (https://www.miiime.com)
+저작권 © 2026 MIIIME (https://www.miiime.com)
 
 1. 본 소프트웨어는 개인적 및 비상업적 용도로만 사용할 수 있습니다.
 2. 원본 패키지의 재배포는 허용되나, 상업적 이용이나 소프트웨어를 판매하는 행위는 엄격히 금지됩니다.
